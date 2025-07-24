@@ -23,7 +23,7 @@ hamburgerIcon.addEventListener("click",()=>{
     });
 });
 images.forEach(img=>{
-    img.addEventListener("mouseover",(e)=>{
+    img.addEventListener("mouseover",()=>{
       const parentdiv=img.parentElement;
       const paragraph=parentdiv.querySelector("p");
       if(paragraph)
@@ -31,7 +31,7 @@ images.forEach(img=>{
             paragraph.style.color="black";
         }  
     })
-    img.addEventListener("mouseout",(e)=>{
+    img.addEventListener("mouseout",()=>{
       const parentdiv=img.parentElement;
       const paragraph=parentdiv.querySelector("p");
       if(paragraph)
