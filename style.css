@@ -81,7 +81,7 @@
 
 /* Hero Section */
 .home-section {
-  background-image: url("../images/mobile/image-hero.jpg");
+  background-image: url("/images/image-hero.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto;
@@ -304,7 +304,7 @@
 /* Tablet Styles */
 @media (min-width: 46.875rem) {
   .home-section {
-    background-image: url("../images/mobile/image-hero.jpg");
+    background-image: url("/images/image-hero.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
