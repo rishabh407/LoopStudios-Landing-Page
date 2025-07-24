@@ -226,7 +226,6 @@
   color: var(--color-text-primary);
   border: var(--border-width-thin) solid var(--color-border);
   cursor: pointer;
-  transition: all 0.3s ease;
 }
 
 /* Footer */

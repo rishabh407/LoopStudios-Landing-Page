@@ -11,7 +11,7 @@ hamburgerIcon.addEventListener("click",()=>{
     hamburgerIcon.src=isMenuOpen ? "/images/icon-close.svg": "/images/icon-hamburger.svg";
     
     // For changing background  image from the home section
-    homeSection.style.backgroundImage=isMenuOpen ? "none" : "url('/images/mobile/image-hero.jpg')";
+    homeSection.style.backgroundImage=isMenuOpen ? "none" : "url('/images/image-hero.jpg')";
     
     // For changing background color of the body
     document.body.style.backgroundColor=isMenuOpen ? "black" : "white";
