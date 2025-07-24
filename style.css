@@ -480,7 +480,7 @@
   .about-content {
     position: relative;
     max-width: var(--container-md);
-    margin: var(--spacing-7xl) auto 20rem auto;
+    margin: 0rem auto 10rem auto;
   }
 
   .about-img img {
