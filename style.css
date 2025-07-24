@@ -505,7 +505,6 @@ img {
     max-width: 60%;
     display: flex;
     flex-direction: column;
-    align-items: left;
     justify-content: center;
     text-align: left;
   }
@@ -544,7 +543,6 @@ img {
 
   .creations-content .img img {
     width: 100%;
-    transition: opacity 0.3s ease;
   }
 
   .img img:hover {
@@ -586,7 +584,6 @@ img {
     display: none;
     width: 19%;
     background-color: var(--color-primary);
-    transition: all 0.3s ease;
   }
 
   .link:hover::before {
